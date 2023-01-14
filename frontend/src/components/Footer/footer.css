@@ -1,0 +1,24 @@
+/*--Footer--*/
+
+.footer{
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.footer-bg {
+    background-image: url(./footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .text-color{
+    color: darkgrey;
+  }
+
+  .copyright{
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  /*--Footer End--*/

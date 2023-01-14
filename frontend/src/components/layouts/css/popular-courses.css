@@ -1,0 +1,45 @@
+/*--Popular Courses--*/
+
+ .card{
+    width: 20rem;
+  }
+  .card .img{
+    transition: all 1s;
+    overflow: hidden;
+  }
+  .card .img img:hover{
+     transform: scale(1.1); 
+  }
+  .card-subtitle{
+    font-size: 12px;
+  }
+  .card-title{
+    font-size: 16px;
+  }
+  
+ 
+  .card-footer{
+    border: none;
+  }
+  
+  .mbtn{
+     padding: 17px 50px;
+     border-radius: 30px;
+     font-size: 12px;
+  }
+  .mbtn:hover{
+    color: white;
+  }
+
+  @media (min-width: 535px) and (max-width: 767px) {
+    .pcourses.card {
+       width: 30rem;
+     }
+   }
+   @media (min-width: 394px) and (max-width: 534) {
+    .pcourses.card {
+       width: 30rem;
+     }
+   }
+  
+  /*--Popular Courses End --*/

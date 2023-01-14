@@ -1,0 +1,18 @@
+/*--Course Speciality--*/
+
+.scourse{
+    width: 16rem;
+  }
+  
+  .scourse .card-body:hover{
+  
+    background-color: #FDAE5C;
+    color: darkblue;
+  
+  }
+  
+  .scourse .card-body img{
+    color: white;
+  }
+  
+  /*--Course Speciality End--*/

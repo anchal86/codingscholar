@@ -1,0 +1,62 @@
+/*--About Area--*/
+.about_area {
+    padding: 100px 0 100px 0;
+  }
+  
+  .about_area h3 {
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 400;
+    color: #2E004B;
+  }
+  .about_area p{
+      line-height: 20px;
+      color: #767D8D;
+  }
+  .circle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    color: darkblue;
+  }
+  .stats{
+    position: relative;
+    width: 500px;
+     height: 350px;
+  }
+  .stats .item{
+    position: absolute;
+    transition: all .5s;
+  }
+  .blue-circle{
+    background-color: #FEB08F;
+    border-radius: 50%;
+    opacity: .5;
+    top: 0%;
+    left: 0;
+    z-index: 1;
+    /*transform: translateY(-80%);*/
+  }
+  .pink-circle{
+    background-color: #50E0D9;
+    border-radius: 50%;
+    opacity: .5;
+    top: 0%;
+    left: 40%;
+    z-index: 1;
+    
+  }
+  
+  .stats .item:hover{
+    opacity: .8;
+    z-index: 10;
+  }
+  .red-circle{
+    background-color: #ff8e9d;
+    border-radius: 50%;
+    top: 50%;
+    opacity: .5;
+    left: 20%;
+  }
+ /*--About Area End--*/ 
